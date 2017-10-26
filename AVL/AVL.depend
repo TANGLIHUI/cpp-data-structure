@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1509004966 source:d:\book\Ëã·¨\data structure\avl\avl.cpp
+	<iostream>
+	<functional>
+	<stack>
+	<algorithm>
+	<cmath>
+	<set>
+
+1509004534 source:d:\book\Ëã·¨\data structure\avl\test_avl.cpp
+	<iostream>
+	<cstring>
+	<vector>
+	<algorithm>
+	<functional>
+	"AVL.cpp"
+
+1509004751 d:\book\Ëã·¨\data structure\avl\avl.cpp
+	<iostream>
+	<functional>
+	<stack>
+	<algorithm>
+	<cmath>
+	<set>
+
+1509005730 source:c:\users\tang\documents\github\cpp-data-structure\avl\test_avl.cpp
+	<iostream>
+	<cstring>
+	<vector>
+	<algorithm>
+	<functional>
+	"AVL.hpp"
+
+1509005335 c:\users\tang\documents\github\cpp-data-structure\avl\avl.hpp
+	<iostream>
+	<functional>
+	<stack>
+	<algorithm>
+	<cmath>
+	<set>
+
