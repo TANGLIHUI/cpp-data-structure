@@ -1,21 +1,17 @@
 #include <iostream>
-#include <cstring>
-#include <vector>
-#include <algorithm>
-#include <functional>
 #include "AVL.hpp"
 using namespace std;
 int main(){
     AVL<double>* tree=new AVL<double>();
-    cout<<boolalpha<<"insert elements"<<endl;
-    int cnt=100000;
+    cout<<boolalpha<<"insert elements..."<<endl;
+    int cnt=100;
     for (int i=0; i<cnt; ++i){
         int j=rand()%cnt;
         tree->insert(j);
-        //cout<<tree->balance()<<' '<<j<<endl;
+        cout<<tree->balance()<<' '<<j<<' '<<tree->find(j+1)<<endl;
     }
     //cout<<*tree<<endl;
-    cout<<"remove elements"<<endl;
+    cout<<"remove elements..."<<endl;
     for (int i=0; i<cnt; ++i){
         //cout<<*tree<<endl;
         int j=rand()%cnt;

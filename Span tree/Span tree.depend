@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1509618249 source:d:\book\Ëã·¨\data structure\span tree\test_spt.cpp
+	<iostream>
+	"SPT.hpp"
+
+1509618394 d:\book\Ëã·¨\data structure\span tree\spt.hpp
+	<iostream>
+	<stack>
+	<functional>
+

@@ -10,7 +10,6 @@ template <typename Datatype,\
           typename Greater\
           >
 #define AVLDLG AVL<Datatype,Less,Greater>
-using namespace std;
 template <typename Datatype,
           typename Less=std::less<Datatype>,
           typename Greater=std::greater<Datatype>
